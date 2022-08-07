@@ -31,10 +31,8 @@ jobs:
       - name: process
         run: python3 patch-rule.py upstream/*.conf
         
-      #- name: Deploy
-      #  uses: JamesIves/github-pages-deploy-action@4.1.7
-      #  with:
-      #    BRANCH: master
-      #    FOLDER: .
-      #    commit-message : 'Nightly build'
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: upstream
           
