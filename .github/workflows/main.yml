@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  schedule:
+    # 每日8时开始，比上游延后20分钟。
+    - cron:  '20 23 * * *'
+  
+  push:
+    branches:
+    - master
+    paths-ignore: 
+      - 'readme.md'
+      - 'LICENSE'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@master
+        with:
+          name: Johnshall/Shadowrocket-ADBlock-Rules-Forever
+      #- name: Install requirements
+      #  run: pip3 install -r requirements.txt
+
+      #- name: Run auto-build.sh
+      #  run: ./factory/auto_build.sh
+      - name: process
+        run: python3 patch-rule.py *.conf
+        
+      #- name: Deploy
+      #  uses: JamesIves/github-pages-deploy-action@4.1.7
+      #  with:
+      #    BRANCH: master
+      #    FOLDER: .
+      #    commit-message : 'Nightly build'
+          
