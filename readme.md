@@ -280,7 +280,7 @@ INTP | Jack of all trades | I use Arch BTW
 
 以下规则基于 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 生成： 
 
-## 懒人配置（已停止维护）
+## 懒人配置（同步自 [LOWERTOP/Shadowrocket](https://github.com/LOWERTOP/Shadowrocket)）
 
 不折腾，开箱即用。
 
@@ -293,7 +293,7 @@ INTP | Jack of all trades | I use Arch BTW
 ![二维码](https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/figure/lazy.png)
 
 
-## 懒人配置-含策略组（已停止维护）
+## 懒人配置-含策略组（同步自 [LOWERTOP/Shadowrocket](https://github.com/LOWERTOP/Shadowrocket)）
 
 不折腾，开箱即用。下载规则后可在 i -> 代理分组 中自行配置。
 
@@ -308,22 +308,21 @@ INTP | Jack of all trades | I use Arch BTW
 ![二维码](https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/figure/lazy_group.png)
 
 
-## 鸣谢：
+## 鸣谢
 
-感谢 [@h2y](https://github.com/h2y) 及所有给予 [Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) 无私帮助的社区开发者们；  
-感谢 [@hfdem](https://github.com/hfdem) 给予我的帮助、肯定与支持！  
-感谢 [JetBrains](https://www.jetbrains.com/?from=Shadowrocket-ADBlock-Rules-Forever) 提供的一系列好用的 IDE 和对本项目的支持。  
-![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
+- 感谢 [@h2y](https://github.com/h2y) 及所有给予 [Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) 无私帮助的社区开发者们；
+- 感谢懒人规则的建立和维护者们；
+- 感谢 [@hfdem](https://github.com/hfdem) 给予我的帮助、肯定与支持！  
 
-### 本项目引用：  
-[gfwlist](https://github.com/gfwlist/gfwlist)  
-[Greatfire Analyzer](https://github.com/Loyalsoldier/cn-blocked-domain)   
-[乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule)  
-[EasyList China](https://adblockplus.org/)  
-[Peter Lowe 广告和隐私跟踪域名](https://pgl.yoyo.org/)   
-[blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)  
+### 本项目引用
+- [gfwlist](https://github.com/gfwlist/gfwlist)  
+- [Greatfire Analyzer](https://github.com/Loyalsoldier/cn-blocked-domain)
+- [乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule)
+- [EasyList China](https://adblockplus.org/)
+- [Peter Lowe 广告和隐私跟踪域名](https://pgl.yoyo.org/)
+- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
+- [LOWERTOP/Shadowrocket](https://github.com/LOWERTOP/Shadowrocket)
 
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Johnshall/Shadowrocket-ADBlock-Rules-Forever.svg)](https://starchart.cc/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
-
